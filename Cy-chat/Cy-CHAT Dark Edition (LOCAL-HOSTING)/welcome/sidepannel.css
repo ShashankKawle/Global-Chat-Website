@@ -1,0 +1,194 @@
+#sidepanal {
+            float:left;
+            margin:1%;
+           }		   
+ul {
+    list-style-type:none; 
+	padding-left:0;
+   }
+
+li button {
+         display:block;
+	 text-decoration:none;
+	 color:white;
+	 width:90%;
+	 padding:15 16 ;
+	 text-align:center; 
+	 text-align:center; 
+         background-color:#5f5f5f;
+         border-bottom-width: 0;
+         border-top-width: 0;
+         border-right-width: 0;
+         border-left-width: 0;
+         cursor:pointer;
+	 }
+.actives {
+         background:#008CBA;
+	}
+li button:hover:not(.actives) {
+                         background-color:#000;
+                         width:100%;
+                         transition:1s;
+                        }
+
+#pops {
+        float:left;
+        background: #ffad33;
+        background:-webkit-linear-gradient(#ffe0b3, #ffad33);
+        background:-o-linear-gradient(#ffe0b3, #ffad33);
+        background:-moz-linear-gradient(#ffe0b3, #ffad33);
+        background:linear-gradient(#ffe0b3, #ffad33);
+        position:absolute;
+        left:800;
+        border-radius:6px;
+        padding:20 10;
+        margin:0;
+        box-shadow: 2px 2px 2px red;
+        z-index:auto;
+        display:none;
+       } 
+h2.Del_title {
+              font-family:"Rupee Foradian";
+              color: #9999ff;
+              text-shadow:1px 1px 1px grey;
+             }
+.del_but {
+          padding-left:8px;
+          padding-right:8px;
+          padding-top:8px;
+          padding-bottom:8px;
+          border:none;
+          border-radius:4px;
+          color:white;
+          background: #0000ff;
+          margin:5px;
+        background:-webkit-linear-gradient( #b3b3ff, #0000ff);
+        background:-o-linear-gradient( #b3b3ff,  #0000ff);
+        background:-moz-linear-gradient( #b3b3ff,  #0000ff);
+        background:linear-gradient( #b3b3ff,  #0000ff);
+        }
+.del_but:hover {
+                 padding-left:15px;
+          padding-right:15px;
+          padding-top:15px;
+          padding-bottom:15px;
+                        
+               }
+#info {
+        float:left;
+        background:  #8080ff;
+        background:-webkit-linear-gradient(  #8080ff,  #6699ff);
+        background:-o-linear-gradient(  #8080ff,  #6699ff);
+        background:-moz-linear-gradient(  #8080ff,  #6699ff);
+        background:linear-gradient(  #8080ff,  #6699ff);
+        position:absolute;
+        left:800;
+        border-radius:6px;
+        padding:20 10;
+        margin:0;
+        box-shadow: 3px 3px 3px black;
+        z-index:auto;
+        display:none;
+      }
+
+.code {
+       background-color:black;
+       color: #40ff00;
+       margin-left:20px;
+       margin-right:20px;
+       margin-top:10px;
+       margin-bottom:10px;
+       border-style:ridge;
+       }
+.dropdown {
+           display:none;
+           width:90%;
+           margin-top:0%; 
+                  margin-bottom:0%;
+           padding:15px 15px;
+           text-align:center;
+           background: #1a1a1a;
+          color:white;
+          font-family:Arial;
+          font-size:12px;
+         }
+ .dropdown:hover {
+                  width:90%;
+                  margin-top:5%; 
+                  margin-bottom:5%;
+                  transition:1s;
+                  background: #0099ff;
+border-radius:5px;
+ cursor:pointer;
+ padding:15px 15px;
+         color:white;
+          font-family:Arial;
+          font-size:12px;
+                }
+
+#accup {
+        float:left;
+        background: #ffad33;
+        background:-webkit-linear-gradient(#ffe0b3, #ffad33);
+        background:-o-linear-gradient(#ffe0b3, #ffad33);
+        background:-moz-linear-gradient(#ffe0b3, #ffad33);
+        background:linear-gradient(#000, #c5c5c5);
+        position:absolute;
+        left:800;
+        border-radius:6px;
+        padding:20 10;
+        margin:0;
+        box-shadow: 2px 2px 2px black; 
+        z-index:auto;
+        display: none;
+       } 
+h2.accup_title {
+              font-family:"Rupee Foradian";
+              color:white;
+              text-shadow:1px 1px 1px grey;
+             }
+.heading {
+       float:left;
+       background:linear-gradient(#ff1200,#861732 );
+       width:100%;
+       height:100%;
+       box-shadow: 0px 0px 2px #0e0d0d;
+      }
+
+input.style {
+             margin-bottom: 2px; 
+			 width:150px;
+			 border-radius:5px;
+            }
+input.style:focus {
+                   width: 230px;
+				   border-radius:0px;
+                   transition:1s;
+                  }
+#acc {
+        float:left;
+        background: #ffad33;
+        background:-webkit-linear-gradient(#ffe0b3, #ffad33);
+        background:-o-linear-gradient(#ffe0b3, #ffad33);
+        background:-moz-linear-gradient(#ffe0b3, #ffad33);
+        background:linear-gradient(#0a64ea, #2994c6);
+        position:absolute;
+        left:800;
+        border-radius:6px;
+        padding:20 10;
+        margin:0;
+        box-shadow: 2px 2px 2px black;
+        z-index:auto;
+        display:none;
+       } 
+h2.acc {
+              font-family:"Rupee Foradian";
+              color:white;
+              text-shadow:1px 1px 1px grey;
+             }
+.headstart { float:left;
+ background:linear-gradient(#22ea8e, #119b35);
+ width:100%;
+height:100%;
+ box-shadow: 0px 0px 2px #0e0d0d;
+}
