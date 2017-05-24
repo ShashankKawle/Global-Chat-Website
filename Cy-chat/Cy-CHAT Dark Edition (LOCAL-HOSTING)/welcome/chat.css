@@ -1,0 +1,108 @@
+div.chat_container
+{
+    float:right;
+    margin-top:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-left:10px;	
+    padding:10px 10px;
+    width:75%;
+    height:83%;
+    border: 3px solid #484B9A;
+    background:#000;
+}
+div.chat_header
+{
+  width:100%;
+   background: #2cb5e8; 
+    background: -webkit-linear-gradient( #33d6ff,  #2cb5e8); 
+    background: -o-linear-gradient( #33d6ff, #2cb5e8); 
+    background: -moz-linear-gradient( #33d6ff,  #2cb5e8); 
+    background: linear-gradient( #33d6ff, #2cb5e8);
+  font-size:30px;
+  font-family:Arial;
+  color:white;
+ margin:0px;
+}
+div.chat_messages_display
+{
+    background-color:white;
+    width: 100%;
+    height:80%;
+}
+div.chat_footer
+{
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left:5px;
+    padding-right:5px;
+}
+button.sent
+{
+  display: inline-block;
+  border-radius: 60%;
+  background-color: #f4511e;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+input.chat
+{
+    border-width: 2px;
+    border-color: blue;
+    border-radius: 5px;
+    width:88%;
+    float:left;
+    background: #000;
+    color: #68F712;
+height:7%;
+}
+
+div.sent
+{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding:10px;
+   background: #cc00ff;
+    color:white;
+    font-size:20px;
+    font-family:Arial;
+   margin-bottom:10px;
+   margin-right:3px;
+   margin-top:10px;
+   display:inline-block;
+}
+div.rec
+{
+border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+ padding:10px;
+background:  #2eb82e;
+    color:white;
+ margin-bottom:10px;
+   margin-left:3px;
+   margin-top:10px;
+ font-size:20px;
+ font-family:Arial;
+display:inline-block;
+}
+div.saperation
+{
+width:100%;
+margin:5px;
+padding:5px;
+ text-shadow:1px 1px 0px black;
+}
+h7
+{
+ text-align:left;
+color:white;
+ text-shadow:1px 1px 0px black;
+}

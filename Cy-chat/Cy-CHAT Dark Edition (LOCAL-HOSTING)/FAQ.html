@@ -1,0 +1,209 @@
+<html lang="en-us">
+	<head>
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link type="image/x-icon" href="headlg.jpg" rel="icon">
+		<title>FAQ Page</title>
+		<link rel="stylesheet" href="FAQ/FAQ_css.css" type="text/css">
+		<meta charset="utf-8">
+		<style>
+		article{
+			background-color: #CCCCCC;
+			border-radius: 5px;
+			width: 15%;
+			padding: 25px;
+			border: 5px solid #CC3333;
+			margin: 1%;
+			float: left;
+			}
+		.button {
+			background-color: #FF3366;
+			border-radius: 3px;
+			border: 2px solid #000000;
+			width: 200px;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 20px;
+			margin: 4px 2px;
+			cursor: pointer;
+			}
+		.button:hover {
+			background-color: #CC3366;
+			}
+		.button a {
+			cursor: pointer;
+			display: inline-block;
+			position: relative;
+			transition: 0.5s;
+			}
+		.button a:after {
+			content: '»';
+			position: absolute;
+			opacity: 0;
+			top: 0;
+			right: -20px;
+			transition: 0.5s;
+			}
+
+		.button:hover a {
+			padding-right: 25px;
+			}
+		.button:hover a:after {
+			opacity: 1;
+			right: 0;
+			}
+		aside{
+		width: 73%;
+		background-color: #CCCCCC;
+		font-family: Arial;
+		padding: 20px 20px 20px 20px;
+		float: left;
+		margin: 1%;
+		border-radius: 5px;
+		height: auto;
+		}
+
+	<!-- Use of Javascript Accordion -->
+		#accordion-2{font-size: 14px;}
+		</style>
+		
+		<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<script>
+			$(function() {
+				$( "#accordion-2" ).accordion({
+				collapsible: true
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<!-- Name:Ajay Kushwaha; Class: S.E. I.T.-1; Roll no.:44 -->
+		<div id="header" align="center">
+			<div>
+			<img src="s1.jpeg" width="200" height="120" alt="LOGO" style="border-radius:50px">
+			</div>
+			<h1 style="margin-bottom: 5px;">
+			CYBER-CHAT
+			</h1>
+			<h4>Time To Chat</h4>
+		</div>
+		<div align="center">
+			<h1>Frequently Asked Questions (FAQ's)</h1>
+		</div>
+		<hr style="background-color:black; height: 5px; border: none; width: 95%">
+		<article>
+		<button class="button" width="500px"><a href="index.html" style="text-decoration:none;">Homepage</a></button><br/>
+		<button class="button"><a href="welcome.php" style="text-decoration:none;">G-CHAT</a></button><br/>
+		<button class="button"><a href="ourteam.html" style="text-decoration:none;">Our Team</a></button><br/>
+		<button class="button"><a href="crt.html" style="text-decoration:none;">Sign Up</a></button><br/>
+		</article>
+		
+		
+		<aside>
+		<p>			
+				<div id="accordion-2">
+				<h3>What is this website(CY-CHAT) all about ?</h3>
+					<div>
+						<p>
+						This Website(CY-CHAT) is a simple chatting website. There is very simple procedures for signup into CY-CHAT. CY-CHAT helps people to communicate around all over the world. One has to only login into CY-CHAT and can start their conversations on their favourite topics.
+						</p>
+					</div>
+				<h3>How can I sign up into CY-CHAT ?</h3>
+					<div>
+						<p>
+						 It is very simple to signup into CY-CHAT. You have to just follow this instructions :<br/>
+						 <ol>
+							<li>First of all , you have to open the CY-CHAT website on your browser.<br/>
+							It will appear like this :<br/>
+							<img src="images/s1.jpeg" width="80%" height="50%" alt="LOGO" style="border-radius:50px">
+							</li>
+							<li>Then, you have to fill up </li>
+						 </ol>
+						</p>
+					</div>
+				<h3>How do I update my personal info ?</h3>
+					<div>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+						sed do eiusmod tempor incididunt ut labore et dolore magna 
+						aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+						ullamco laboris nisi ut aliquip ex ea commodo consequat.      
+						</p>
+					</div>
+				<h3>How do I delete my account ?</h3>
+					<div>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+						sed do eiusmod tempor incididunt ut labore et dolore magna 
+						aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+						ullamco laboris nisi ut aliquip ex ea commodo consequat.      
+						</p>
+					</div>
+				<h3>Can we use Webcams(Video Calling) ?</h3>
+					<div>
+						<p>
+						 Currently, Our website (CY-CHAT) does not support Web cams. We are considering whether or not we should include this feature in a future version.
+						</p>
+					</div>
+				<h3>Does CY-CHAT works on all Computers ?</h3>
+					<div>
+						<p>	
+						We believe so.CY-CHAT is based entirely on the JavaScript that is built into all web browsers - it does not rely on Sun Java, Adobe Flash, or any other plug-in or applet that the user has to install first.<br/> Furthermore, CY-CHAT uses standard web technology (not any obscure ports or protocols) and should therefore be able to pass through corporate firewalls without any problems.
+						</p>
+					</div>
+				<h3>Which browser does CY-CHAT supports or recommends ?</h3>
+					<div>
+						<p>	
+						CY-CHAT has been thoroughly tested with the latest version of the major browsers:
+							<ul><li><a href="http://www.mozilla.org/firefox/" target="_BLANK">Mozilla Firefox</a></li>
+							<li><a href="http://www.google.com/chrome" target="_BLANK">Google Chrome</a></li>
+							<li><a href="http://windows.microsoft.com/en-us/internet-explorer/products/ie/home" target="_BLANK">Internet Explorer on Windows</a></li>
+							<li><a href="http://www.apple.com/safari" target="_BLANK">Safari on Apple OS X or iOS</a></li>
+							<li>Mobile CY-CHAT: iPhone + Android browsers (WebKit)</li></ul>
+							<p><h4>NOTE:Users are Requested to use Mozilla Firefox Web Browser for better performance.</h4></p>
+						It is our aim that CY-CHAT continues to work in older browsers such as Internet Explorer 6 and Netscape Navigator 6, but we highly recommend upgrading to one of the above, more modern browsers.
+						</p>
+					</div>
+				<h3>How safe is the chat service? Is there any virus protection in the chat rooms ?</h3>
+					<div>
+						<p>
+						CY-CHAT is very safe to use:
+						<p>First of all, CY-CHAT does not install any programs on your computer, but relies on JavaScript commands which are carried out by your Internet browser. Thus, if you trust your Internet browser (which you normally can), you can trust the CY-CHAT service - contrary to independent chat and instant messaging programs which may or may not include bugs or spyware.</p>
+						<p>Secondly, there is no way CY-CHAT can transfer a virus or execute code from another chat user on your computer. The only thing that passes from one chatter to the others is plain text. All HTML tags, and thereby embedded code of any kind, is filtered away. Consequently, there is no need for virus protection in relation to CY-CHAT</p>
+						</p>
+					</div>
+				<h3>Do you accept advertising from adult websites or the like?</h3>
+					<div>
+						<p>	
+						No, we do not. Furthermore, we never use pop-up/pop-under windows and we try to avoid flashy, disturbing banners.
+						</p>
+					</div>	
+				<h3>Does CY-CHAT supports any advertisements ?</h3>
+					<div>
+						<p>	
+						No, CY-CHAT does not support any bussiness advertisements. It is just an simple chatting website.
+						</p>
+					</div>	
+				<h3>Does CY-CHAT works on all Computers ?</h3>
+					<div>
+						<p>	
+						We believe so.CY-CHAT is based entirely on the JavaScript that is built into all web browsers - it does not rely on Sun Java, Adobe Flash, or any other plug-in or applet that the user has to install first.<br/> Furthermore, CY-CHAT uses standard web technology (not any obscure ports or protocols) and should therefore be able to pass through corporate firewalls without any problems.
+						</p>
+					</div>	
+				
+			</div>
+		</p>
+		</aside>
+	</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<link type="image/x-icon" href="headlg.jpg" rel="icon">
+<title>
+CY-CHAT messaging website
+</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="Home/home.css" type="text/css">
+<script type="text/javascript">
+var slideimages = new Array(); 
+slideimages[0] = new Image();
+slideimages[0].src = "pics/b1.png";
+slideimages[1] = new Image();
+slideimages[1].src = "pics/b2.png";
+slideimages[2] = new Image();
+slideimages[2].src = "pics/b3.png";
+slideimages[3] = new Image();
+slideimages[3].src = "pics/b4.gif";
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+ $("#li1").click(function(){
+    $(".1").slideToggle(); 
+ });
+ $("#li2").click(function(){
+    $(".2").slideToggle(); 
+ });
+ $("#li3").click(function(){
+    $(".3").slideToggle(); 
+ });
+ $("#li4").click(function(){
+    $(".4").slideToggle(); 
+ });
+
+$(".sec1").hover(function(){
+ function slider(){
+    $(".slide1").slideUp(2000);
+    $(".slide2").slideDown(2000);
+   } 
+ slider();
+});
+
+$("#f1").click(function(){
+  $("#fd1").slideToggle();
+ });
+$("#f2").click(function(){
+  $("#fd2").slideToggle();
+ });
+$("#f3").click(function(){
+  $("#fd3").slideToggle();
+ });
+
+$("#ace_logo").click(function(){
+  $("#ace1").fadeIn(2000);
+  $("#ace2").fadeIn(2000);
+ });
+});
+</script>
+
+</head>
+<body style="background-image:url(pics/host_back.jpg);">
+        <div id="header">
+<div class="sub_header">
+<form action="stg_log.php" method="post">
+    Name:<br><input type="text" name="name" placeholder=" User name" required=""> <br><br>	
+Password:<br><input type="password" name="password" placeholder=" Password" required=""> <br><br>
+<input type="submit" value="Login" class="login_button"><br>
+</form><br>
+<form action="crt.html">
+<input type="submit" name="cn" value="Create New" class="create_button">	
+</form>
+</div>
+
+<div>
+<img src="s1.jpeg" width="200" height="120" alt="LOGO" style="border-radius:50px">
+</div>
+<h1 style="margin-bottom: 5px;font-family:Engravers MT;">
+CYBER-CHAT
+</h1>
+        Time To Chat
+    </div>
+
+<div class="navbar">
+<ul class="navbar">
+  <li class="navbar"><a class="active" href="index.html">Home</a></li>
+  <li class="navbar"><a href="ourteam.html">Our Team</a></li>
+  <li class="navbar"><a href="Feedback.html">Contact Us</a></li>
+  <li class="navbar" style="float: right;"><a href="#about">About</a></li>
+  <li class="navbar" style="float: right;"><a href="FAQ.html">FAQ</a></li>
+</ul>
+    </div>
+    
+<div style="width:100%;color:white;font-family:Arial;font-size:12px;">
+<p align="center">Cyber-chat is worlds best free online chatting site. Join global chatting online. Make new friends. Cyber-Chat is a chat room based messenger available for online users. With Cyber-Chat, everyone in the world can connect on all the most popular topics for free.</p>
+</div>
+    
+<div class="intro">
+<marquee direction="right">
+    <h1 style="text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;color: white;">
+        <b>Login or Sign Up to: </b>
+    </h1>
+</marquee>
+    <hr style="background-color: green;height: 3px; border: none">
+<ul class="intro_list">
+<li class="normal" id="li1"><h3>Send Messages to friends for free</h3><p id="list_text" class="1">Connect with family and friends freely! Express yourself privately or in groups. ( Double Click to Close)</p></li>
+<li class="normal" id="li2"><h3>Global Chat</h3><p id="list_text" class="2">Experience the unlimited freedom of sharing and socializing with people from all over the world. Cyber-Chat is not restricted by language, cultural or geographical barriers. ( Double Click to Close)</p></li>
+<li class="normal" id="li3"><h3>Discover our new apps and developments</h3><p id="list_text"class="3">Stay online with us and always be updated with our latest features. ( Double Click to Close)</p></li>
+<li class="normal" id="li4"><h3>It's FREE and always will be</h3><p id="list_text" class="4">No fees, no hidden costs and no strings attached! Once you created your account, you can send unlimited chat messages in any room to anyone, while meeting old friends and making new ones. ( Double Click to Close)</p></li>
+<li class="normal" id="li5"><h3>Easy to Understand and use</h3></li>
+</ul>
+
+
+
+</div>
+    
+<div class="updates">
+<h4 style="text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;color: white;">What's New?</h4>
+<hr>
+<div id="up_list" style="float:left;">
+<ul class="updates_list">
+<li class="up1"><p class="updates_li" id="up_1">New Page Added ==> FAQ</p></li>
+<li class="up2"><p class="updates_li" id="up_2">Email System after form submission is started</p></li>
+<li class="up3"><p class="updates_li" id="up_3">New Page Added ==> Contact Us</p></li>
+</ul>
+</div>
+<div class="update_info">
+Decription Will be here..
+</div>
+</div>
+
+
+
+<div class="sec1" style="float:left;">
+
+<div class="slide1" >
+<div id="decor1">
+<center>
+ <h1 style="color:white;">
+  HELPS YOU</h1><br>
+   <h1 style="color:white;">TO</h1>
+   <br>
+  <h1 style="color:white;"> CONNECT YOUR PEOPLE</h1>
+</center> 
+</div>
+<div id="decor2" style="margin-right: 2%;margin-top: 6%;">
+<p>We’re connecting the next billion in a way that works for them. <br>That means designing experiences that work with their needs.  </p>
+</div>
+</div>
+
+<div class="slide2" style="display:none;">
+<div id="decor1" style="float:right;">
+<center>
+ <h1 style="color:white;">
+  But with great power, comes great responsibility
+ </h1>
+</center> 
+</div>
+<div id="decor2" style="float:left;margin-right: 2%;margin-top: 1%;">
+Social media and mobile are literally redefining ‘connecting people’<br> but there are also challenges. People now have more data on their phones than ever before<br> including intimate personal details from social networks.<br>Because of that we are going to launch our mobile app very soon!
+</div>
+
+</div>
+</div>
+
+<div class="sec2">
+<h2 style="font-family:Arial;"><u>OUR FEATURES :-</u></h2>
+<center>
+<img src="pics/GUI.png" class="features" id="f1">  <h3>Simple GUI.</h3><p class="features_des" id="fd1">We provide YOU most suffisticated and easy to handle GUI(Graphical User Interface),so that you will have exiting experiance with us.</p>
+
+<img src="pics/USE.png" class="features" id="f2">  <h3>Easy To Understand and Use.</h3><p class="features_des" id="fd2">Because of our GUI YOU will be able to easily acces your information and will be able to share your thoughts.</p>
+
+<img src="pics/STRUCT.png" class="features" id="f3">  <h3>Display's Basic Network Structure.</h3><p class="features_des" id="fd3">This website is create using Basic Network Structure with Database. <br>This site is made just for study perpose.</p>
+</center>
+</div>
+
+<div class="sec3">
+
+<center>
+<b style="font-size:larger;"><u>Powered By</u></b><br>
+<img src="pics/ace.gif" height="331" width="300" id="ace_logo" style="cursor:pointer;">
+<br>
+<b style="font-size:larger;">Atharva College Of Engineering</b>
+<br>
+<b style="font-size:larger;">Malad (WEST)</b>
+</center>
+
+<div class="ace_info" style="float:left;" id="ace1">
+<ul class="ace_list">
+<li>Atharva was established in the year 1999<br> for the noble cause of Engineering education in western suburbs.</li>
+<li>Presently caters to the need of 800+ students in various branches.</li>
+<li>ISO 9001:2000 Certified Institute.</li>
+<li>ISO approved by American Quality Assessors (India)<br> Private Limited & Accredited By ANAB.</li>
+</ul>
+</div>
+
+
+<div class="ace_info" style="float:right;" id="ace2">
+AET’s Educational Complex is set up on a gigantic and spacious<br> campus of 6 acres situated in the heart of Western <br>suburbs at Malad with convenient access by bus / train.<br> With classic architecture & interiors, beautiful green landscaping and ambience,<br> state-of-the art infrastructure and other sophisticated equipment,<br> AET Complex is the perfect setting of a professional environment with a <br>friendly touch to the scene.
+</div>
+
+</div>
+
+
+<br><br><div class="sec5"><hr></div><br><br>
+
+
+<div class="sec4" style="background-color:#ffcc00;padding-top:5%;padding-bottom:5%;">
+<div class="ss" style="padding-left:24%;">
+<center>
+  <div style="float:left">
+  <img src="pics/cartoon.gif"><br>
+<center style="font-family:cursive;">
+Check out some pics 
+</center>
+  </div>
+        <div class="slideshow">
+        <img src="b1.png" id="slide" width="500" height="350" alt="nothing" style="box-shadow: 10px 10px 5px #888888;border-radius:12px"/>
+        </div>
+</center>
+</div>
+</div>
+
+
+<script type="text/javascript">
+var step=0;
+
+function slideit()
+{
+ if (!document.images)
+  return;
+ document.getElementById('slide').src = slideimages[step].src;
+ if (step<3)
+  step++;
+ else
+  step=0;
+ setTimeout("slideit()",2500);
+}
+
+slideit();
+</script>
+
+<div class="sec6"><hr></div>
+
+<div id="footer">
+Copyright: M_A_A_T_S@atharva.vom
+</div>
+
+</body>
+</html>
